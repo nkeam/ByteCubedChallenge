@@ -1,6 +1,6 @@
 # ByteCubed Challenge
 
-##Description
+## Description
 This repo contains a single main.tf Terraform configuration file that performs the following:
 1.  Spins up a publicly accessible AWS EC2 instance that is monitored by AWS Cloudwatch.  
 		-  It is configured with a single alarm for if the average CPU utilization is greater than 80 for 2 evaluation periods of 120 seconds.
